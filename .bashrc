@@ -4,7 +4,7 @@ export GTEST_COLOR="no"
 export NODE_DISABLE_COLORS=1
 #export PROMPT_COMMAND=
 
-export PS1='(${PWD/\/Users\/linton/~}@$(hostname)) '
+export PS1='$(hostname):${PWD/\/Users\/linton/~}% '
 
 set -o vi braceexpand
 source $HOME/aliases.bash
